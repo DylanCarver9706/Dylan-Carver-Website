@@ -1,3 +1,40 @@
+* {
+  initial-value: 100px;
+  text-align: center;
+}
+
+header {
+  font-size: 70px;
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+}
+
+h2 {
+  font-style: underline;
+}
+
 body {
-    background: white;
+  background-color: #6DB3F2;
+  background-image: url('Images/patterns-labs.jpg');
+  margin: auto;
+  width: 70%;
+  color: white;
+  
   }
+
+  script.js {
+  font-size: 40px;
+}
+
+button {
+  background-color: rgb(49, 92, 235); 
+  border: black;
+  color: black;
+  padding: 15px 32px;
+  font-size: 20px;
+  border: 3px solid black
+}
