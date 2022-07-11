@@ -1,3 +1,6 @@
-//const h2 = document.createElement("h2");
-//h2.textContent = "Learn about me on my website!";
-//document.querySelector("body").appendChild(h2);
+let btn = document.createElement("button");
+btn.innerHTML = "Click here for contact info";
+btn.addEventListener("click", function () {
+  alert("Thank you for visiting my website! To contact me, please reach out using my email: Dylancarver14@gmail.com");
+});
+document.body.appendChild(btn);
